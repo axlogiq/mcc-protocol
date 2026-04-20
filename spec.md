@@ -60,3 +60,25 @@ Result:
     "message": "approve_payment requires prior validate_payment"
   }
 }
+---
+
+## Error codes
+
+| Code | Description |
+|------|------------|
+| MISSING_FIELD | Required field is missing |
+| INVALID_ARGS_TYPE | args must be an object |
+| UNKNOWN_INTENT | Intent is not supported |
+| MALFORMED_JSON | Invalid JSON payload |
+| INTERNAL_ERROR | Unexpected server error |
+| UNTRUSTED_RECIPIENT | Recipient not allowed |
+
+## HTTP statuses
+
+| Status | When |
+|--------|------|
+| 200 | Valid request processed |
+| 400 | Bad request (missing/invalid fields) |
+| 403 | Forbidden (policy deny) |
+| 413 | Payload too large |
+| 500 | Internal error |
