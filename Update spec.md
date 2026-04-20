@@ -82,3 +82,6 @@ Result:
 | 403 | Forbidden (policy deny) |
 | 413 | Payload too large |
 | 500 | Internal error |
+| INTERNAL_ERROR | Unexpected server error |
+| UNTRUSTED_RECIPIENT | Recipient not allowed |
+
