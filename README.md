@@ -1,3 +1,5 @@
+⚠️ Warning: v0.1 does not include authentication or session management.
+Do not use in production without additional security layers.
 # MCC Protocol
 
 Meta-Cognitive Control (MCC) is a protocol that defines the interface between AI reasoning and action.
