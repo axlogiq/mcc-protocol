@@ -11,7 +11,28 @@ All intents must be evaluated before execution.
 ## Endpoint
 
 POST /evaluate
+## Layer Separation
 
+MCC defines a minimal execution control boundary.
+
+The purpose of the protocol is to evaluate whether a requested action
+(intent + arguments) is allowed at the point of execution.
+
+Governance concerns are intentionally external to the core protocol.
+
+This includes, but is not limited to:
+- dynamic policy management
+- appeals and exception handling
+- override mechanisms
+- audit logging and review processes
+
+These capabilities are expected to be implemented as separate layers
+on top of MCC, without modifying the protocol itself.
+
+This separation ensures that:
+- the core protocol remains simple and verifiable
+- governance remains flexible and system-specific
+- the architecture can evolve without breaking the execution boundary
 ---
 
 ## Request
