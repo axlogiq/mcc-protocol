@@ -108,3 +108,11 @@ Result:
 | UNTRUSTED_RECIPIENT | Recipient not allowed |
 
 See governance.md for governance mechanisms.
+
+---
+
+## Principle
+
+Control is enforced at execution time, not at reasoning time.
+
+No intelligence can bypass the control boundary without compromising the system itself.
