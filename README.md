@@ -1,3 +1,9 @@
+ ## Core Principle (Non-Negotiable)
+Control is enforced at execution time, not at reasoning time.
+No intelligence can bypass the control boundary without compromising the system itself.
+
+---
+
 ⚠️ Warning: v0.1 does not include authentication or session management.
 Do not use in production without additional security layers.
 # MCC Protocol
