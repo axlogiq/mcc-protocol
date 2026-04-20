@@ -107,3 +107,4 @@ Result:
 | INTERNAL_ERROR | Unexpected server error |
 | UNTRUSTED_RECIPIENT | Recipient not allowed |
 
+See governance.md for governance mechanisms.
