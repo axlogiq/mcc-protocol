@@ -11,6 +11,7 @@ All intents must be evaluated before execution.
 ## Endpoint
 
 POST /evaluate
+
 ## Layer Separation
 
 MCC defines a minimal execution control boundary.
